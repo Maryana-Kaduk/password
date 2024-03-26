@@ -1,0 +1,54 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:regular,700);
+
+@import url(https://fonts.googleapis.com/css?family=Roboto+Mono:regular);
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body {
+    font-family: 'Roboto';
+    font-weight: 400;
+    max-width: 100vw;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+}
+.field {
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+button svg path {
+    width: 72px;
+    height: 72px;
+}
+button.copy {
+    width: 72px;
+    height: 72px;
+    background-color: transparent;
+    border: 0;
+    outline: none;
+}
+
+input[type="text"] {
+    color: #000;
+    font-family: Roboto Mono;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    width: 500px;
+}
+
+input[type="range"] {
+    width: 300px;
+}
+
+.copy.copied svg path {
+    fill: #245714;
+}
